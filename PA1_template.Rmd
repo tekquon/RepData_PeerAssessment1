@@ -102,7 +102,7 @@ sum_by_day_modified <- ddply(data_modified, ~date, summarize, sum_steps=sum(step
 hist(sum_by_day_modified$sum_steps, xlab="Number of steps per day", ylab="Number of days observed", col="blue", main = "Number of Steps Taken per Day")
 ```
 
-We notice that the mean and median steps per day has increased as expected.  Note the table below compares the means and medians from pre and post-treatment (lines 1 & 2, respectively).
+We notice that the mean and median steps per day has increased as expected to 10766.19 and 10766.19, respectively.  Note the table below compares the means and medians from pre and post-treatment (lines 1 & 2, respectively).
 
 ```{r, echo=TRUE}
 mean_steps_modified <- mean(sum_by_day_modified$sum_steps)

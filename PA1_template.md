@@ -136,7 +136,7 @@ hist(sum_by_day_modified$sum_steps, xlab="Number of steps per day", ylab="Number
 
 ![](PA1_template_files/figure-html/unnamed-chunk-11-1.png) 
 
-We notice that the mean and median steps per day has increased as expected.  Note the table below compares the means and medians from pre and post-treatment (lines 1 & 2, respectively).
+We notice that the mean and median steps per day has increased as expected to 10766.19 and 10766.19, respectively.  Note the table below compares the means and medians from pre and post-treatment (lines 1 & 2, respectively).
 
 
 ```r
